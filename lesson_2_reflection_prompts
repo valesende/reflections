@@ -21,6 +21,7 @@ The diagrams show where branches begin and end.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+Merging two branches combines an offshoot branch to the master branch, creating a new master branch that incorporates the changes made in the master branch and the offshoot branch.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
