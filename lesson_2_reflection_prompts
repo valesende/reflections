@@ -25,3 +25,4 @@ Merging two branches combines an offshoot branch to the master branch, creating 
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+Automatic merging is convenient but may result in conflicts that have to be resolved by manually determining what changes to keep and which to discard. Manually merging allows for two or more collaborating users to discuss first which changes should be kept in the final version.
