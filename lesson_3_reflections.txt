@@ -17,3 +17,10 @@ So that you can edit it locally without having to be online.
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 Another way to collaborate without Git and GitHub would be a file sharing service like dropbox or google docs. However, these services
 aren't made specifically for code and don't allow for many of the editing functions GitHub does, and don't have version control built in.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Making changes in a seperate branch allows you to try out new features and changes that you don't want to put in the master branch just
+in case it breaks the functionality of the master branch. This way you can merge the new features in the seperate branch via a pull request
+only when you are ready to implement the changes. Also, if you are collaborating with someone on the project, it is best to have your 
+a collaborator work on a seperate branch so that the changes can be approved before the two branches are merged.
+Alternatively, if you made all the changes on a single branch, merges would not be necessary.
