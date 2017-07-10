@@ -9,3 +9,6 @@ Fork is a similar function to clone, but is performed exclusively on GitHub. You
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 So that you can edit it locally without having to be online.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Another way to collaborate without Git and GitHub would be a file sharing service like dropbox or google docs. However, these services aren't made specifically for code and don't allow for many of the editing functions GitHub does, and don't have version control built in.
